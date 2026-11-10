@@ -18,9 +18,9 @@ Already cloned? Just run `python3 view.py` from this folder.
 - **Results** – scores per task and model, item by item, with heatmaps; FlowKit versions next to the Cytoflow versions.
 - **Rubrics** and **What the LLM judge sees** – the scoring items, weights and the exact text the judge receives.
 - **Tasks** (left sidebar) – A1–A3 and B1–B4 (Cytoflow GUI versions) and A1_flowkit … B4_flowkit (Python + FlowKit versions). Each task has tabs for the plain-language summary, the exact prompt and inputs, the golden solution, the rubric, and **Traces**.
-- **Traces** – one row per run (5 per model per task, Opus 5.5 and GPT-6 Astra). Each opens a page with every step the system took: what it said, each command, the output, and the screenshots it looked at.
+- **Traces** – one row per run (5 per model per task: Opus 5.5, GPT-6 Astra and Fable 5.2). Each opens a page with every step the system took: what it said, each command, the output, and the screenshots it looked at.
 
-Batches shown: Task A Cytoflow tb6/tb7 (rescored with the 6-item rubric), Task B Cytoflow tb8 (6-item rubric), FlowKit fk1.
+Batches shown: Task A Cytoflow tb6/tb7 (rescored with the 6-item rubric), Task B Cytoflow tb8 (6-item rubric), FlowKit fk1 (Opus 5.5 and GPT-6 Astra, effort xhigh); Fable 5.2 fb1 + fb2 on all tasks (effort high).
 
 ## Contents
 
