@@ -1,6 +1,6 @@
-# ShapeTx flow-cytometry tasks: visualizer
+# Flow-cytometry tasks: visualizer
 
-A browsable view of the flow-cytometry evaluation tasks built from ShapeTx data:
+A browsable view of the flow-cytometry evaluation tasks built from archived experimental data:
 what each task asks, the answer key, how it is scored, the results, and the full step-by-step trace of every run.
 
 ## View it
@@ -29,7 +29,7 @@ view.py      one-command local viewer
 site/        the visualizer (index.html, judge.html) and traces/ (one page per run + screenshots)
 ```
 
-Confidential: contains ShapeTx experimental data, answer keys and model traces. Keep this repository private.
+Confidential: contains experimental data, answer keys and model traces. Keep this repository private.
 
 To refresh after new runs (from the eval workspace): `visualizer/build_traces.py`, `visualizer/build.py`, then
 `visualizer/export_site.py <path to this repo>/site`.

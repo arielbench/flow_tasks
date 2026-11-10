@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Open the ShapeTx flow-cytometry task visualizer: serves ./site on localhost and opens it in your browser.
+"""Open the flow-cytometry task visualizer: serves ./site on localhost and opens it in your browser.
 
     python3 view.py            # then press Ctrl+C to stop
 """
